@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:finally_a_flame",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": "Dinner by Firelight",
+    "description": "After lighting a fire with a Fire Drill, place food on a regular Campfire and finish cooking it.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "campfire_cook": {
+      "trigger": "siftinggravel:campfire_cook"
+    }
+  },
+  "requirements": [
+    [
+      "campfire_cook"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "siftinggravel",
+  "version": "${version}",
+  "name": "Spark and Sift",
+  "description": "Expand early-game survival with bowl sifting, primitive firemaking, archaeology, campfire progression, and configurable rewards.",
+  "authors": [
+    "faefluffkrist"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.faefluffkrist.siftinggravel.SiftingGravel"
+    ],
+    "modmenu": [
+      "com.faefluffkrist.siftinggravel.client.SiftingGravelModMenu"
+    ],
+    "client": [
+      "com.faefluffkrist.siftinggravel.client.SiftingGravelClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "fabric-api": ">=0.155.2+26.2",
+    "java": ">=25"
+  },
+  "suggests": {
+    "modmenu": ">=20.0.0",
+    "punchy": "*",
+    "smoothplayeranimations": "*"
+  },
+  "mixins": [
+    "siftinggravel.mixins.json",
+    "siftinggravel.animation-compat.mixins.json"
+  ],
+  "icon": "assets/siftinggravel/icon.png"
+}

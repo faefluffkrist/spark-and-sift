@@ -1,0 +1,24 @@
+{
+  "parent": "siftinggravel:getting_your_hands_dirty",
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": "Grave Consequences",
+    "description": "Sift a Wither Skeleton Skull from Soul Sand or Soul Soil.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "find": {
+      "trigger": "siftinggravel:wither_skull_find"
+    }
+  },
+  "requirements": [
+    [
+      "find"
+    ]
+  ]
+}

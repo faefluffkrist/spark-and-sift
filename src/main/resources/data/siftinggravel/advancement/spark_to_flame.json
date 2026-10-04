@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:a_better_spark",
+  "display": {
+    "icon": {
+      "id": "siftinggravel:flint_fire_starter"
+    },
+    "title": "Spark to Flame",
+    "description": "Successfully light a fire with a Flint Fire Starter.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flint_starter_success": {
+      "trigger": "siftinggravel:flint_starter_success"
+    }
+  },
+  "requirements": [
+    [
+      "flint_starter_success"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:stubborn_archaeologist",
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_relic"
+    },
+    "title": "An Unlikely Record",
+    "description": "Excavate the Relic Music Disc from a suspicious block using a Bowl.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bowl_relic": {
+      "trigger": "siftinggravel:bowl_relic"
+    }
+  },
+  "requirements": [
+    [
+      "bowl_relic"
+    ]
+  ],
+  "rewards": {
+    "experience": 40
+  }
+}

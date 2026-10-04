@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:a_finer_touch",
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd"
+    },
+    "title": "History in Your Hands",
+    "description": "Excavate a Pottery Sherd from a suspicious block using a Brush.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brush_sherd": {
+      "trigger": "siftinggravel:brush_sherd"
+    }
+  },
+  "requirements": [
+    [
+      "brush_sherd"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

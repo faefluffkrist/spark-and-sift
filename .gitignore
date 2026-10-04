@@ -1,0 +1,18 @@
+# Gradle outputs and local runtime files
+.gradle/
+build/
+out/
+run/
+logs/
+crash-reports/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*

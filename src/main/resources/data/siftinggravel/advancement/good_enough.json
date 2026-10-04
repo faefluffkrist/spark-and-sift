@@ -1,0 +1,24 @@
+{
+  "parent": "siftinggravel:from_dirt_to_flint",
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": "Good Enough",
+    "description": "Use a Sifted material in place of Flint in a crafting recipe.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sifted_crafting": {
+      "trigger": "siftinggravel:sifted_crafting"
+    }
+  },
+  "requirements": [
+    [
+      "sifted_crafting"
+    ]
+  ]
+}

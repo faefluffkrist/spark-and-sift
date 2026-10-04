@@ -1,0 +1,70 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "siftinggravel:item/fire_drill"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 1.0,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "siftinggravel:item/fire_drill"
+      },
+      "entries": [
+        {
+          "threshold": 1.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_1"
+          }
+        },
+        {
+          "threshold": 2.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_2"
+          }
+        },
+        {
+          "threshold": 3.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_3"
+          }
+        },
+        {
+          "threshold": 4.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_4"
+          }
+        },
+        {
+          "threshold": 5.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_1"
+          }
+        },
+        {
+          "threshold": 6.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_2"
+          }
+        },
+        {
+          "threshold": 7.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/fire_drill_spin_3"
+          }
+        }
+      ]
+    }
+  }
+}

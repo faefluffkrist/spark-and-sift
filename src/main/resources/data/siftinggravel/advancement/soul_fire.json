@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:old_ways_new_sparks",
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_campfire"
+    },
+    "title": "A Flame Beyond",
+    "description": "Light a Soul Campfire with either primitive fire starter.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_fire_success": {
+      "trigger": "siftinggravel:soul_fire_success"
+    }
+  },
+  "requirements": [
+    [
+      "soul_fire_success"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  }
+}

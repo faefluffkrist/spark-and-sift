@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "siftinggravel:item/sifting_bowl_base"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "siftinggravel:item/sifting_bowl_contents_rooted_dirt_bob_2"
+      }
+    ]
+  }
+}

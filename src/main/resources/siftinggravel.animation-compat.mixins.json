@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.faefluffkrist.siftinggravel.compat",
+  "plugin": "com.faefluffkrist.siftinggravel.compat.AnimationCompatMixinPlugin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PunchyUseTriggerMixin",
+    "SmoothStarterUseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

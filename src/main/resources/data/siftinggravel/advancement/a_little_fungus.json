@@ -1,0 +1,24 @@
+{
+  "parent": "siftinggravel:getting_your_hands_dirty",
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom"
+    },
+    "title": "A Little Fungus",
+    "description": "Sift a Red or Brown Mushroom from Rooted Dirt or Coarse Dirt.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "find": {
+      "trigger": "siftinggravel:dirt_mushroom"
+    }
+  },
+  "requirements": [
+    [
+      "find"
+    ]
+  ]
+}

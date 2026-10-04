@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:a_finer_touch",
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_relic"
+    },
+    "title": "The Past Has a Sound",
+    "description": "Excavate the Relic Music Disc from a suspicious block using a Brush.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brush_relic": {
+      "trigger": "siftinggravel:brush_relic"
+    }
+  },
+  "requirements": [
+    [
+      "brush_relic"
+    ]
+  ],
+  "rewards": {
+    "experience": 40
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "itemSpecific": {
+    "siftinggravel:fire_drill": {
+      "kind": "INGREDIENT",
+      "armKind": "AXE",
+      "transforms": {
+        "right": {
+          "scale": 0.9165999,
+          "offX": 0.5210328,
+          "offY": 0.023102999,
+          "offZ": 0.0028276443,
+          "rotX": -126.21694,
+          "rotY": 7.2124023,
+          "rotZ": 153.14075,
+          "pivotX": 0.2361201,
+          "pivotY": 0.12879276,
+          "pivotZ": 0.004293084
+        },
+        "left": {
+          "scale": 0.9165999,
+          "offX": -0.5210328,
+          "offY": 0.023102999,
+          "offZ": 0.0028276443,
+          "rotX": -126.21694,
+          "rotY": -7.2124023,
+          "rotZ": -153.14075,
+          "pivotX": -0.2361201,
+          "pivotY": 0.12879276,
+          "pivotZ": 0.004293084
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.97717506,
+          "offX": 0.2032063,
+          "offY": 0.017172337,
+          "offZ": -0.082999825,
+          "rotX": 6.439636,
+          "rotY": 0.0,
+          "rotZ": 2.0606842,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.97717506,
+          "offX": -0.2032063,
+          "offY": 0.017172337,
+          "offZ": -0.082999825,
+          "rotX": 6.439636,
+          "rotY": 0.0,
+          "rotZ": -2.0606842,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "customAnimation": [
+        {
+          "type": "useItem",
+          "name": "siftandspark_fire_drill_use"
+        }
+      ]
+    },
+    "minecraft:bowl": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.05,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.05,
+          "pivotZ": 0.0
+        }
+      },
+      "customAnimation": [
+        {
+          "type": "useItem",
+          "name": "siftandspark_bowl_sift"
+        }
+      ]
+    },
+    "siftinggravel:flint_fire_starter": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "customAnimation": [
+        {
+          "type": "useItem",
+          "name": "siftandspark_flint_starter_use"
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.0539498,
+          "offX": 0.020034552,
+          "offY": -0.025758624,
+          "offZ": 0.0,
+          "rotX": 0.77275085,
+          "rotY": 0.0,
+          "rotZ": 4.378952,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0014309883
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.77797544,
+          "offX": 0.15168917,
+          "offY": 0.06296539,
+          "offZ": -0.06868935,
+          "rotX": -3.3486023,
+          "rotY": -8.242752,
+          "rotZ": 3.6062164,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    }
+  }
+}

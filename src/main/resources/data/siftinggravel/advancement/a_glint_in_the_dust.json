@@ -1,0 +1,24 @@
+{
+  "parent": "siftinggravel:getting_your_hands_dirty",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": "A Glint in the Dust",
+    "description": "Sift a Gold Nugget from Red Sand.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "find": {
+      "trigger": "siftinggravel:red_sand_gold"
+    }
+  },
+  "requirements": [
+    [
+      "find"
+    ]
+  ]
+}

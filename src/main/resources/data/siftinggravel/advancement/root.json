@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl"
+    },
+    "title": "Spark and Sift",
+    "description": "Let's get our hands dirty!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure"
+  },
+  "criteria": {
+    "has_bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      }
+    },
+    "has_drill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "siftinggravel:fire_drill"
+          }
+        ]
+      }
+    },
+    "has_flint_starter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "siftinggravel:flint_fire_starter"
+          }
+        ]
+      }
+    },
+    "has_brush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brush"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bowl",
+      "has_drill",
+      "has_flint_starter",
+      "has_brush"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "siftinggravel:gravel_sifting",
+      "siftinggravel:coarse_dirt_sifting",
+      "siftinggravel:rooted_dirt_sifting"
+    ]
+  }
+}

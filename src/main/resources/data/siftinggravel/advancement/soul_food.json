@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:soul_fire",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": "Soul Food",
+    "description": "After lighting a Soul Campfire with a primitive starter, finish cooking your food on a Soul Campfire.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_campfire_cook": {
+      "trigger": "siftinggravel:soul_campfire_cook"
+    }
+  },
+  "requirements": [
+    [
+      "soul_campfire_cook"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  }
+}

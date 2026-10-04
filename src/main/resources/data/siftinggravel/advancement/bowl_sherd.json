@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:stubborn_archaeologist",
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd"
+    },
+    "title": "Pieces of the Past",
+    "description": "Excavate a Pottery Sherd from a suspicious block using a Bowl.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bowl_sherd": {
+      "trigger": "siftinggravel:bowl_sherd"
+    }
+  },
+  "requirements": [
+    [
+      "bowl_sherd"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  }
+}

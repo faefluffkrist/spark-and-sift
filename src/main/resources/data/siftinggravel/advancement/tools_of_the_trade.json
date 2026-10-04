@@ -1,0 +1,33 @@
+{
+  "parent": "siftinggravel:a_finer_touch",
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": "Tools of the Trade",
+    "description": "Complete excavations with both a Bowl and a Brush.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bowl_archaeology": {
+      "trigger": "siftinggravel:bowl_archaeology"
+    },
+    "brush_archaeology": {
+      "trigger": "siftinggravel:brush_archaeology"
+    }
+  },
+  "requirements": [
+    [
+      "bowl_archaeology"
+    ],
+    [
+      "brush_archaeology"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

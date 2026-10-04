@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:a_finer_touch",
+  "display": {
+    "icon": {
+      "id": "minecraft:dune_armor_trim_smithing_template"
+    },
+    "title": "A Pattern Emerges",
+    "description": "Excavate an Armor Trim Smithing Template from a suspicious block using a Brush.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brush_trim": {
+      "trigger": "siftinggravel:brush_trim"
+    }
+  },
+  "requirements": [
+    [
+      "brush_trim"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}

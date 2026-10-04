@@ -1,0 +1,31 @@
+{
+  "parent": "siftinggravel:root",
+  "display": {
+    "icon": {
+      "id": "siftinggravel:fire_drill"
+    },
+    "title": "Making Do",
+    "description": "Craft or obtain a Fire Drill.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_fire_drill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "siftinggravel:fire_drill"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fire_drill"
+    ]
+  ]
+}

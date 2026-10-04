@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "siftinggravel:item/flint_fire_starter"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 1.0,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "siftinggravel:item/flint_fire_starter"
+      },
+      "entries": [
+        {
+          "threshold": 5.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/flint_fire_starter_punchy_single"
+          }
+        },
+        {
+          "threshold": 10.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "siftinggravel:item/flint_fire_starter"
+          }
+        }
+      ]
+    }
+  }
+}

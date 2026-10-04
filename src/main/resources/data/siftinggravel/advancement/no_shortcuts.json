@@ -1,0 +1,24 @@
+{
+  "parent": "siftinggravel:getting_your_hands_dirty",
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": "No Shortcuts",
+    "description": "Find Flint while manually sifting.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual_flint": {
+      "trigger": "siftinggravel:manual_flint"
+    }
+  },
+  "requirements": [
+    [
+      "manual_flint"
+    ]
+  ]
+}

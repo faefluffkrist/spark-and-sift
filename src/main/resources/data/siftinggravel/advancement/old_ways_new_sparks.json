@@ -1,0 +1,33 @@
+{
+  "parent": "siftinggravel:spark_to_flame",
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": "Old Ways, New Sparks",
+    "description": "Successfully light fires with both primitive fire starters.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_drill_success": {
+      "trigger": "siftinggravel:fire_drill_success"
+    },
+    "flint_starter_success": {
+      "trigger": "siftinggravel:flint_starter_success"
+    }
+  },
+  "requirements": [
+    [
+      "fire_drill_success"
+    ],
+    [
+      "flint_starter_success"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "com.faefluffkrist.siftinggravel.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityMixin",
+    "ResultSlotMixin",
+    "ItemStackMixin",
+    "ArchaeologyRewardsMixin",
+    "CampfireCookingRewardsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "client.ItemModelResolverMixin",
+    "client.BowlBrushAnimationMixin",
+    "client.FlintIgnitionUseMixin",
+    "client.FireDrillVanillaPositionMixin"
+  ]
+}

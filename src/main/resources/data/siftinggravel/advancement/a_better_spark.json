@@ -1,0 +1,31 @@
+{
+  "parent": "siftinggravel:finally_a_flame",
+  "display": {
+    "icon": {
+      "id": "siftinggravel:flint_fire_starter"
+    },
+    "title": "A Better Spark",
+    "description": "Craft or obtain a Flint Fire Starter.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_flint_starter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "siftinggravel:flint_fire_starter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flint_starter"
+    ]
+  ]
+}

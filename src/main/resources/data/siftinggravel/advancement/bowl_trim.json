@@ -1,0 +1,27 @@
+{
+  "parent": "siftinggravel:stubborn_archaeologist",
+  "display": {
+    "icon": {
+      "id": "minecraft:dune_armor_trim_smithing_template"
+    },
+    "title": "Hidden Patterns",
+    "description": "Excavate an Armor Trim Smithing Template from a suspicious block using a Bowl.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bowl_trim": {
+      "trigger": "siftinggravel:bowl_trim"
+    }
+  },
+  "requirements": [
+    [
+      "bowl_trim"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  }
+}
